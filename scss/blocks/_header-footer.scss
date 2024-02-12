@@ -1,0 +1,104 @@
+.header__footer {
+  padding-bottom: 20px;
+}
+
+.header__footer-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.common{
+    padding:4px 10px;
+    background-color: rgb(213, 213, 213);
+    border-radius: 4px;
+    height:34px;
+
+    @include min{
+        height: 40px;
+        padding:8px 10px;
+    }
+}
+
+.header__shipping {
+    width:92px;
+    
+}
+.header__trustpilot {
+   font-family: 'Montserrat Mixed';
+   font-size: 8px;
+   max-width: 170px;
+
+   @include min{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   }
+}
+
+.trustpilot__numbers span{
+    font-family: 'Montserrat Bold';
+}
+
+.trustpilot__numbers{
+    display:inline-block;
+    margin-top: 1px;
+}
+
+
+.header__numbers {
+    background-color: rgb(213, 213, 213);
+    
+   
+}
+
+.header__macbook{
+    margin-bottom: 38px;
+    
+}
+
+.img-macbook{
+    display:flex;
+    margin: 0 auto;  
+}
+
+
+.trustpilot-img{
+    background-color: #00B67A;
+    width:14px;
+    height: 14px;
+    padding:1.5px;
+}
+
+
+.trustpilot__bottom{
+    font-family: 'Montserrat Semibold';
+}
+
+
+.numbers__text{
+    font-size: 16px;
+    font-family: 'Montserrat Bold';
+    @include min{
+        font-size: 12px;
+    }
+}
+
+.numbers__text span {
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    @include min{
+        font-size: 9px;
+    }
+}
+
+
+.excellent{
+   font-size: 12px;
+   line-height: 3px;
+   @include min{
+    line-height: 12px;
+   }
+}

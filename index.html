@@ -1,0 +1,293 @@
+<!--Сообщаем браузеру как стоит обрабатывать эту страницу-->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого-->
+<html lang="ru">
+  <!-- Заголовок страницы, контейнер для других важных данных(не отображается)-->
+  <head>
+    <!--Заголовок страницы в браузере-->
+    <title>TECHNOPARK Landing</title>
+    <!--Кодировка страницы-->
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="header__last-chance">
+      Last chance + Free delivery 2-4 days in UK
+    </div>
+    <header class="header">
+      <div class="container">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__content">
+            <a href="!#" class="header__logo"
+              ><img src="./img/icons/logo-techno-white.svg" alt="TECNHOPARK"
+            /></a>
+            <div class="header__nav-btn">
+              <button class="nav-icon-btn">
+                <div class="nav-icon"></div>
+              </button>
+            </div>
+              <div class="burger__container none">
+                <div class="burger__menu">
+                  <div class="burger__top">
+                    <img src="./img/icons/logo-techno-black.svg" alt="TECHNOPARK"/>
+                  <button class="burger__menu-close"><img src="./img/icons/btn-close.svg" alt="close window"></button>
+                </div>
+                <div class="burger__main">
+                  <nav class="menu">
+                    <ul>
+                      <li class="menu__list">
+                        <a href="##">Go to product page</a>
+                        <a href="##"><img class="menu__img" src="./img/icons/arrow-right.svg" alt="ref"></a>
+                      </li>
+                      <li class="menu__list">
+                        <a href="##">Track your order</a>
+                        <a href="##"><img class="menu__img" src="./img/icons/arrow-right.svg" alt="ref"></a>
+                      </li>
+                      <li class="menu__list">
+                        <a href="##">Contact us</a>
+                        <a href="##"><img class="menu__img" src="./img/icons/arrow-right.svg" alt="ref"></a>
+                      </li>
+                      <li class="menu__list">
+                        <a href="##">FAQ</a>
+                        <a href="##"><img class="menu__img" src="./img/icons/arrow-right.svg" alt="ref"></a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__main">
+        <h1 class="header__title">Power. It’s in the Air.</h1>
+        <p class="header__main-text">Limited offer just for today</p>   
+        <div class="header__reviews">
+          <div class="reviews__top">
+            <img class='reviews__img-mark' src="./img/icons/Yellow star.svg" alt="star" />
+            <img class='reviews__img-mark' src="./img/icons/Yellow star.svg" alt="star" />
+            <img class='reviews__img-mark' src="./img/icons/Yellow star.svg" alt="star" />
+            <img class='reviews__img-mark' src="./img/icons/Yellow star.svg" alt="star" />
+            <img class='reviews__img-mark' src="./img/icons/Yellow star.svg" alt="star" />
+            <span class="reviews__marks"> 4.9 / 5.0 </span>
+          </div>
+          <div class="reviews__bottom">
+            10000+ reviews 
+            <a id="footer" href="##">
+                <img class='img-arrow'src="./img/icons/arrow-bottom.svg" alt="ref to footer">
+            </a>
+          </div>
+        </div>
+        <div class="header__prices">
+            <span>£199</span>
+            <div class="header__red">£1099</div>
+        </div>
+      </div>
+      <div class="header__macbook">   
+        <img class='img-macbook' src="./img/icons/Apple Macbook.png" alt="">
+      </div>
+      <div class="header__footer">
+          <div class="header__footer-content">
+           <div class="header__shipping common">
+                <img src="./img/icons/Shipping.svg" alt="Express Shipping">
+            </div>
+            <div class="header__trustpilot common">
+                <div class="trustpilot__top ">
+                    <img class='trustpilot-img'src="./img/icons/white-star.svg" alt="star">
+                    <img class='trustpilot-img'src="./img/icons/white-star.svg" alt="star">
+                    <img class='trustpilot-img'src="./img/icons/white-star.svg" alt="star">
+                    <img class='trustpilot-img'src="./img/icons/white-star.svg" alt="star">
+                    <img class='trustpilot-img'src="./img/icons/white-star.svg" alt="star">
+                </div>
+                <div class="trustpilot__bottom"> 
+                    <div class="trustpilot__numbers">
+                          Over <span>10,000 reviews </span>on 
+                    </div>
+                    <img src="./img/icons/green-star.svg" alt="Trustpilot logo">
+                </div> 
+            </div>
+            <div class="header__numbers common">
+              <p class="numbers__text">4.9 <span>out of 5</span></p>
+              <p class="numbers__text excellent">Excellent</p>
+            </div>
+        </div>
+       </div>    
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container slide">
+      <div class="products__slider">
+        <div class="slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div data-tab-value="laptop" class="card swiper-slide">
+                    <div class="card__photo">
+                      <img
+                        class="card__img"
+                        src="./img/icons/slider/slider-1 (1).png"
+                        alt="laptop before"
+                      />
+                    </div>
+                    </div>
+                  <div data-tab-value="keyboard" class="card swiper-slide">
+                      <a href="#product-page" class="card__link"></a>
+                      <div class="card__photo">
+                        <img
+                          class="card__img"
+                          src="./img/icons/slider/slider-2.png"
+                          alt="laptop keyboard"
+                        />
+                      </div>                   
+                    </div>
+                  <div data-tab-value="close" class="card swiper-slide">
+                      <a href="#product-page" class="card__link"></a>
+                      <div class="card__photo">
+                        <img
+                          class="card__img"
+                          src="./img/icons/slider/slider-3.png"
+                          alt="laptop close"
+                        />
+                      </div>                 
+                    </div>
+                  <div data-tab-value="side-open" class="card swiper-slide">
+                      <a href="#product-page" class="card__link"></a>
+                      <div class="card__photo">
+                        <img
+                          class="card__img"
+                          src="./img/icons/slider/slider-4.png"
+                          alt="laptop side open"
+                        />
+                      </div>      
+                    </div>     
+                </div>
+            </div>
+            <div class="slider-scrollbar">  
+            </div>
+        </div>
+    </div>
+
+    <section class="main__label">
+      <h2 class="main__title titles">Apple MacBook Air (M1, 2020) 16 ГБ, 1 ТБ  SSD “Space Gray”</h2>
+      <span>35 items left</span>
+      <div class="main__line">
+      </div>
+      <div class="main__text">
+        <p>The Handheld Gateway to Your PS5® Games Play Your Game Collection Experience Breathtaking Immersion with DualSense® Wireless Controller Features</p>
+        <p> Feel the incredible immersion of haptic feedback and adaptive triggers in supported games</p>
+        <div class="main__timer">
+          sale ends in 
+          <div class="timer">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="buynow">
+      <h2 class="buynow__title titles">£199</h2>
+      <div class="buynow__discount">
+        <div class="buynow__img"></div>
+        £1099 <span>-75%</span>
+      </div>
+      
+      <p class="buynow__text">
+        Special offer only for split payments by 
+      </p>
+      <p class="buynow__text">
+        <img src="./img/icons/afterpay-logo.svg" alt="afterpay logo">
+        with 10 interest-free installments
+      </p>
+          
+      <button class="buynow__btn">
+                Buy now pay later
+      </button>
+  
+      <div class="buynow__afterbtn">
+        <p>In stock, ready for ship</p>
+        <p>Delivery in 2-4 days in UK</p>
+      </div>
+    </section>
+
+    <div class="buynow__container">
+      <div class="buynow__checkout ">
+        <div class="checkout__header">
+          <img src="./img/icons/afterpay-logo.svg" alt="afterpay logo">
+          <button class="checkout__btn-close"><img src="./img/icons/btn-close.svg" alt="close window"></button>
+        </div>
+        <h3 class="checkout__title">Make easy monthly payments</h3>
+        <div class="checkout__main">
+          <div class="checkout__top">
+            <span>£9.99/mo.</span>
+            <button class="checkout__top-btn">10 months</button>
+          </div>
+          <div class="checkout__bottom">
+            <div class="checkout__one">
+              APR <br>
+              <p>0%</p>
+            </div>
+            <div class="checkout__one">
+              Interest<br>
+              <p>£0</p>
+            </div>
+            <div class="checkout__one">
+              Total <br>
+              <p>£89.00</p>
+            </div>
+          </div>
+  
+          <div class="checkout__dashed"></div>
+  
+          <button class="checkout__btn-confirm">
+            Confirm to checkout
+          </button>
+        </div>
+      </div>
+    </div>
+   
+
+    <section class="free-shipping">
+      <h3 class="free-shipping__title">
+        Free shipping in United Kingdom
+        <button id='arrow-btn' class="free-shipping__arrow">
+          <img id='arrImg'src="./img/icons/arrow-up.svg" alt="arrow">
+        </button>
+      </h3>
+
+      <div class="free-shipping__logo none">
+        <img src="./img/icons/mark/orange.svg" alt="DHL EXPRESS">
+        <img src="./img/icons/mark/red.svg" alt="dpd">
+        <img src="./img/icons/mark/purple.svg" alt="FedEx">
+        <img src="./img/icons/mark/Yellow.svg" alt="ups">
+      </div>
+      <p class="free-shipping__text none">
+        All purchases are shipped from our warehouse in United Kingdom and are fully insured with a tracking number. Tracked delivery between 2-4 days in United Kingdom + Free Delivery.
+      </p>
+    </section>
+    </main>
+
+    <footer id="ftr"class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__text">*Information is not a public offer
+          This site is not part of the Facebook or Facebook Inc. website. Also, this site is not endorsed by Facebook in any way FACEBOOK is a trademark of FACEBOOK, Inc. Facebook provides a platform for serving advertising, but the opinions and/or views expressed on this website are not  representative of Facebook, Inc. Opinions and/or views expressed on our website's social media platforms, including but not limited to our blogs and Facebook pages, represent the thoughts of individual bloggers and online communities, and not necessarily those of our website or any of its business partners, affiliates or any of their respective officers, employees, staff or board members. The views and opinions expressed on these pages do not in any way reflect the opinions of the site on which they are published, other sites affiliated with the site, the personnel involved in the maintenance of the site or any member of the site. Any opinions or views expressed on this website's social media platforms are not representative of Facebook, Inc. Although our website makes reasonable efforts to monitor and/or moderate content posted on its social media platforms, we do not moderate all comments and cannot always respond to online inquiries in a timely manner. All new customers are entered into the raffle for the displayed campaign product. If you are the lucky winner, you will be contacted directly by email. This special offer includes a three-day trial to an affiliated service, after which the subscription fee will be thirty-three euros every fourteen days - automatically deducted from your credit card. If for any reason you are not satisfied with the service, you can cancel your account within three days. The service will renew every thirty days until cancelled. This campaign will expire on December 31 of this year. If you would like to participate without signing up for a three-day trial at Toolsandtoys, please email.
+          </div>
+          <div class="footer__text-second none">*Information is not a public offer
+          This site is not part of the Facebook or Facebook Inc. website. Also, this site is not endorsed by Facebook in any way FACEBOOK is a trademark of FACEBOOK, Inc. Facebook provides a platform for serving advertising, but the opinions and/or views expressed on this website are not  representative of Facebook, Inc. Opinions and/or views expressed on our website's social media...  
+          </div>
+          <button id='button' class="footer__btn">
+              Read less     
+          </button>
+          <button id ='button-second' class="footer__btn none">
+            Read more
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

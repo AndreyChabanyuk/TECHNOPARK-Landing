@@ -1,0 +1,55 @@
+.nav-icon-btn{
+    --time:0.1s;
+    --width:20px;
+    --height:20px;
+    --line-height:0.8px;
+    --line-margin:3;
+    --color:#fff;
+    height:var(--height);
+    width:var(--width);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+.nav-icon{
+    position:relative;
+    width:var(--width);
+    height: 2px;
+    background-color:var(--color);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.nav-icon.nav-icon--active{
+    background: transparent;
+}
+
+.nav-icon::before,
+.nav-icon::after
+{
+    content:'';
+    display:block;
+    position:absolute;
+    left:0;
+    width:var(--width);
+    height: 2px;
+
+    background-color: var(--color);
+    transition: transform var(--time) ease-in,
+    top var(--time) linear var(--time);
+
+}
+
+.nav-icon::before{
+
+    top:calc(var(--line-height) * -8);
+
+}
+
+.nav-icon::after{
+    top:calc(var(--line-height) * 8);
+}
+

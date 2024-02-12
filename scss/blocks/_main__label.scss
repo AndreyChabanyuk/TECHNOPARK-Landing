@@ -1,0 +1,51 @@
+.main__label{
+    margin-top:12px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+
+.main__label span {
+    font-family:'Poppins Semibold', sans-serif;
+    color:#FF4053;
+
+}
+.main__title {
+    margin-bottom: 20px;
+}
+
+
+.main__line {
+    width:110px;
+    height: 8px;
+    background:#FF4053;
+    border-radius: 12px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+.main__text{
+    font-family: 'Poppins Regular';
+    
+}
+
+.main__text p {
+    line-height: 20px;
+    color: #1F1F1F;
+    margin-bottom: 10px;
+  
+}
+
+.main__timer {
+    font-family: 'Poppins Regular';
+    text-align: center;
+    color:black;
+    margin-top: 20px;    
+}
+
+
+.timer {
+    display:inline-block;
+    font-family: 'Poppins Semibold';
+    color:#B15FFF
+}

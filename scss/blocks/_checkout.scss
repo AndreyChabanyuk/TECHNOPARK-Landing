@@ -1,0 +1,108 @@
+.buynow__container{
+    position:fixed;
+    background: rgba(0, 0, 0, 0.5);
+    width:100%;
+    height: 100%;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+
+.buynow__checkout {
+    width:400px;
+    max-height: 300px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding:20px;
+    font-family: 'Montserrat Bold';
+    
+    
+}
+.checkout__header {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+
+.checkout__btn-close img {
+    width:12px;
+    height: 12px;
+}
+
+.checkout__title {
+    font-size: 18px;
+    margin-bottom: 26px;
+}
+
+.checkout__top {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.checkout__top-btn{
+    background: #B0FDE4;
+    padding:6px 14px;
+    border-radius: 30px;
+    width:104px
+}
+
+.checkout__bottom {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    color:#545454
+}
+
+.checkout__dashed{
+    border: 1px dashed rgb(0, 0, 0);
+    margin-bottom: 16px;
+}
+
+.checkout__btn-confirm {
+    background: #B0FDE4;
+    width:100%;
+    border-radius: 10px;
+    padding:12px 75px;
+}
+
+.checkout__one p{
+    font-family: 'Montserrat Regular';
+    padding-top:4px;
+}
+
+
+
+.fade-in{
+    animation: ani 1s forwards;
+}
+
+.fade-out{
+    animation: anim 1s forwards
+}
+
+
+@keyframes anim{
+    0%{width:100%; height: 100%;opacity:1;top:0;left:0;visibility: visible;}
+    100%{width:100%; height: 100%;left:550px;visibility: hidden;}
+}
+
+
+@keyframes ani {
+    0%{width:100%; height: 100%; opacity:0;left:-550px;visibility: hidden;}
+    100%{width:100%; height: 100%;opacity:1;left:0px;visibility: visible;}
+}

@@ -1,0 +1,53 @@
+.buynow {
+    margin-bottom: 36px;
+}
+
+.buynow__discount {
+    position: relative;
+    font-family: 'Poppins Regular';
+}
+
+.buynow__discount span{
+    color:#FF4053;
+    margin-left:4px
+}
+
+.buynow__img{
+    content: '';
+    position:absolute;
+    width:44px;
+    height: 23px;
+    background: url('../../img/icons/red-line-small.svg') center center no-repeat;
+}
+
+
+.buynow__text {
+    font-family: 'Poppins Medium';
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.buynow__text img{
+    margin-top: 7px;
+}
+
+
+.buynow__btn {
+    font-family: 'VelaSans Semibold';
+    color:#000000;
+    width:100%;
+    background-color:#B0FDE4;
+    border-radius: 8px;
+    height: 52px;
+    margin-bottom: 12px;
+  
+
+}
+.buynow__afterbtn {
+    color:#717271;
+}
+
+.buynow__afterbtn p {
+    margin-bottom: 10px;
+}

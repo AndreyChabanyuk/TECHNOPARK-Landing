@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(70, 63, 63);
+    max-width: 600px;
+    margin:0 auto;
+}
+
+
+.container{
+    padding:0 20px;
+}
+
+
+.none-checkout{
+    transform:rotateY(180deg);
+    opacity:0;
+    visibility:visible;
+}
+
+.slide{
+    background-color: #ffffff;
+}
+
+
+.titles{
+    font-family:'Poppins Semibold', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    color:#1f1f1f;
+}
+
+.none{
+    display:none !important;
+}
+
+.transform{
+    transform: rotate(180deg);
+}
+
+
+
+
+
